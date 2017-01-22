@@ -1,6 +1,7 @@
 package guru;
 
 import generic.CommonAPI;
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -15,7 +16,7 @@ public class GURU_LOGIN extends CommonAPI {
     "password","login"})
     @Test
     public void login(String xpathReset,String userLocator,String userName,
-                      String passwordLocator,String password,String login){
+                      String passwordLocator,String password,String login) throws InterruptedException{
         //reset
 
         clickUsingXpath(xpathReset);
@@ -23,6 +24,11 @@ public class GURU_LOGIN extends CommonAPI {
         typeByXpath(userLocator,userName);
         typeByXpath(passwordLocator,password);
         clickUsingXpath(login);
+        Thread.sleep(1000);
+        String ExpectedTitle="Guru99 Bank Manager HomePage";
+       String ActualTitle=getTitle();
+        Assert.assertEquals(ExpectedTitle,ActualTitle);
+
 
     }
 }

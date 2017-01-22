@@ -44,5 +44,11 @@ public class CommonAPI {
     }
 
 
+    //start method get webpage title of a web page
+    public String getTitle(){
+      return driver.getTitle();
+    }
+
+
 
 }
