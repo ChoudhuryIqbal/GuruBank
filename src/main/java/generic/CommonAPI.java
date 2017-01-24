@@ -1,5 +1,6 @@
 package generic;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -27,7 +28,7 @@ public class CommonAPI {
     }
 
 
-    @AfterMethod
+    @AfterTest
     public void tearDown(){
         driver.quit();
 
@@ -48,6 +49,18 @@ public class CommonAPI {
     public String getTitle(){
       return driver.getTitle();
     }
+
+
+    //Read Alert text
+    public String textAlert(){
+
+        Alert alert=driver.switchTo().alert();
+
+        return alert.getText();
+    }
+
+
+
 
 
 

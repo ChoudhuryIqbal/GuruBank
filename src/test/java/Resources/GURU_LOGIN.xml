@@ -5,9 +5,11 @@
     <parameter name="xpathReset" value="html/body/form/table/tbody/tr[3]/td[2]/input[2]"/>
     <parameter name="userLocator" value="html/body/form/table/tbody/tr[1]/td[2]/input"/>
     <parameter name="userName" value="mngr63609"/>
+    <parameter name="invalidPassword" value="password"/>
     <parameter name="passwordLocator" value="html/body/form/table/tbody/tr[2]/td[2]/input"/>
     <parameter name="password" value="qEgahEn"/>
     <parameter name="login" value="html/body/form/table/tbody/tr[3]/td[2]/input[1]"/>
+    <parameter name="invalidUserName" value="invalid"/>
     <test name="GuruLogin">
         <classes>
             <class name="guru.GURU_LOGIN" />
