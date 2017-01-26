@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="492c948c-7166-401a-be06-bf6df75e9357" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java" afterPath="$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java" />
-    </list>
+    <list default="true" id="492c948c-7166-401a-be06-bf6df75e9357" name="Default" comment="" />
     <ignored path="Guru.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GURU_LOGIN.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GURU_LOGIN.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
@@ -38,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GURU_LOGIN.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GURU_LOGIN.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -602,9 +599,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 19h 16m 27s.xml">
-      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 19h 20m 30s.xml">
       <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
     </history-entry>
@@ -629,12 +623,15 @@
     <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.26 at 13h 05m 46s.xml">
       <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.26 at 13h 11m 50s.xml">
+      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="GURU_LOGIN - 2017.01.20 at 21h 00m 05s.xml">
       <configuration name="GURU_LOGIN" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="2" width="1368" height="742" extended-state="0" />
+    <frame x="-8" y="2" width="1368" height="742" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -723,14 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generic/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -740,6 +729,14 @@
             <element signature="e#1135#1136#0" expanded="true" />
             <element signature="e#1173#1174#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
