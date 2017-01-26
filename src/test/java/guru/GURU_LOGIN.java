@@ -2,6 +2,7 @@ package guru;
 
 import generic.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -16,18 +17,23 @@ public class GURU_LOGIN extends CommonAPI {
 
 
     public  void login (String xpathReset,String userLocator,String userName,
-                    String passwordLocator,String password,String login) throws InterruptedException{
+                    String passwordLocator,String password,String login) throws InterruptedException,NoAlertPresentException{
         //reset
+        try {
+            clickUsingXpath(xpathReset);
+            // clickUsingXpath("html/body/form/table/tbody/tr[1]/td[2]/input");
+            typeByXpath(userLocator, userName);
+            typeByXpath(passwordLocator, password);
+            clickUsingXpath(login);
+            Thread.sleep(1000);
+            String expectedMessage = "User or Password is not valid";
+            String actualMessage = textAlert();
+            Assert.assertEquals(expectedMessage, actualMessage);
+        }
+        catch (NoAlertPresentException e){
 
-        clickUsingXpath(xpathReset);
-        // clickUsingXpath("html/body/form/table/tbody/tr[1]/td[2]/input");
-        typeByXpath(userLocator,userName);
-        typeByXpath(passwordLocator,password);
-        clickUsingXpath(login);
-        Thread.sleep(1000);
-       // String expectedMessage ="User or Password is not valid";
-       //// String actualMessage=textAlert();
-       // Assert.assertEquals(expectedMessage,actualMessage);
+            Thread.sleep(1000);
+        }
 
     }
 
@@ -36,7 +42,7 @@ public class GURU_LOGIN extends CommonAPI {
 
     @Parameters({"xpathReset","userLocator","invalidUserName","passwordLocator",
             "password","login"})
-    @Test(priority = 2)
+    @Test()
     public void SS2(String xpathReset,String userLocator,String userName,
                     String passwordLocator,String password,String login) throws InterruptedException{
         //reset
@@ -50,9 +56,9 @@ public class GURU_LOGIN extends CommonAPI {
 
     @Parameters({"xpathReset","userLocator","userName","passwordLocator",
             "password","login"})
-    @Test(priority = 1)
+    @Test(priority = 0)
     public void SS1(String xpathReset,String userLocator,String userName,
-                      String passwordLocator,String password,String login) throws InterruptedException{
+                      String passwordLocator,String password,String login) throws InterruptedException,NoAlertPresentException{
         //reset
 
 
@@ -62,18 +68,15 @@ public class GURU_LOGIN extends CommonAPI {
         String ExpectedTitle="Guru99 Bank Manager HomePage";
         String ActualTitle=getTitle();
         Assert.assertEquals(ExpectedTitle,ActualTitle);
-        //verify manager Id is shown
 
-       /* String managerId=driver.findElement(By.xpath("html/body/table/tbody/tr/td/table/tbody/tr[3]/td")).getText();
-
-        if (managerId.startsWith("Manger Id : mngr")){
+        //Test manager Id
+        String managerId=driver.findElement(By.xpath("html/body/table/tbody/tr/td/table/tbody/tr[3]/td")).getText();
+        if(managerId.startsWith("Manger Id : mngr")){
             Assert.assertTrue(true);
         }
         else{
             Assert.assertTrue(false);
-        }*/
-
-
+        }
 
     }
 
@@ -83,7 +86,7 @@ public class GURU_LOGIN extends CommonAPI {
 
     @Parameters({"xpathReset","userLocator","userName","passwordLocator",
             "invalidPassword","login"})
-    @Test(priority = 3)
+    @Test()
     public void SS3(String xpathReset,String userLocator,String userName,
                     String passwordLocator,String password,String login) throws InterruptedException{
         //reset
@@ -98,7 +101,7 @@ public class GURU_LOGIN extends CommonAPI {
 
     @Parameters({"xpathReset","userLocator","invalidUserName","passwordLocator",
             "invalidPassword","login"})
-    @Test(priority = 4)
+    @Test()
     public void SS4(String xpathReset,String userLocator,String userName,
                     String passwordLocator,String password,String login) throws InterruptedException{
         //reset
