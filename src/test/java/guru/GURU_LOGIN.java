@@ -1,6 +1,7 @@
 package guru;
 
 import generic.CommonAPI;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -61,6 +62,17 @@ public class GURU_LOGIN extends CommonAPI {
         String ExpectedTitle="Guru99 Bank Manager HomePage";
         String ActualTitle=getTitle();
         Assert.assertEquals(ExpectedTitle,ActualTitle);
+        //verify manager Id is shown
+
+       /* String managerId=driver.findElement(By.xpath("html/body/table/tbody/tr/td/table/tbody/tr[3]/td")).getText();
+
+        if (managerId.startsWith("Manger Id : mngr")){
+            Assert.assertTrue(true);
+        }
+        else{
+            Assert.assertTrue(false);
+        }*/
+
 
 
     }

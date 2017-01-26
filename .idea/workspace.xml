@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="492c948c-7166-401a-be06-bf6df75e9357" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generic/CommonAPI.java" afterPath="$PROJECT_DIR$/src/main/java/generic/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml" afterPath="$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java" afterPath="$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java" />
     </list>
     <ignored path="Guru.iws" />
@@ -27,12 +25,12 @@
     <favorites_list name="Guru" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GURU_LOGIN.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +51,7 @@
       <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generic/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="391">
               <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -148,7 +146,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,6 +262,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,18 +602,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 18h 59m 08s.xml">
-      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 19h 06m 07s.xml">
-      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 19h 12m 31s.xml">
-      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 19h 14m 18s.xml">
-      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 19h 16m 27s.xml">
       <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
     </history-entry>
@@ -629,6 +615,18 @@
       <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.23 at 19h 28m 54s.xml">
+      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.26 at 13h 01m 13s.xml">
+      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.26 at 13h 02m 15s.xml">
+      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.26 at 13h 03m 57s.xml">
+      <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_a_udemyAutomation_Guru_src_test_java_Resources_GURU_LOGIN_xml - 2017.01.26 at 13h 05m 46s.xml">
       <configuration name="C:/Users/a/udemyAutomation/Guru/src/test/java/Resources/GURU_LOGIN.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GURU_LOGIN - 2017.01.20 at 21h 00m 05s.xml">
@@ -685,136 +683,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generic/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generic/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.052/TestScript01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.275/TestScript02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.901/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.328/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.667/TestScript02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.742/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.584/TestScript02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="50" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generic/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="391">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -840,10 +715,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/guru/GURU_LOGIN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="167">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Resources/GURU_LOGIN.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generic/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
       </provider>
