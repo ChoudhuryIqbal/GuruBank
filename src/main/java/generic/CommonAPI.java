@@ -21,6 +21,7 @@ public class CommonAPI {
 
     @BeforeMethod
     public void setUP(){
+        System.setProperty("webdriver.gecko.driver","C:\\Users\\a\\udemyAutomation\\Guru\\src\\resources\\geckodriver.exe");
         driver=new FirefoxDriver();
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
