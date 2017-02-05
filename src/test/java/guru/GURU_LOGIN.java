@@ -56,7 +56,7 @@ public class GURU_LOGIN extends CommonAPI {
 
     @Parameters({"xpathReset","userLocator","userName","passwordLocator",
             "password","login"})
-    @Test(priority = 0)
+    @Test()
     public void SS1(String xpathReset,String userLocator,String userName,
                       String passwordLocator,String password,String login) throws InterruptedException,NoAlertPresentException{
         //reset
@@ -88,7 +88,7 @@ public class GURU_LOGIN extends CommonAPI {
             "invalidPassword","login"})
     @Test()
     public void SS3(String xpathReset,String userLocator,String userName,
-                    String passwordLocator,String password,String login) throws InterruptedException{
+                    String passwordLocator,String password,String login) throws InterruptedException,Exception{
         //reset
 
         login(xpathReset,userLocator,userName,passwordLocator,password,login);
@@ -96,12 +96,14 @@ public class GURU_LOGIN extends CommonAPI {
         String expectedMessage ="User or Password is not valid";
         String actualMessage=textAlert();
         Assert.assertEquals(expectedMessage,actualMessage);
+        takeScreenShot("SS3Pic");
 
     }
 
     @Parameters({"xpathReset","userLocator","invalidUserName","passwordLocator",
             "invalidPassword","login"})
-    @Test()
+    @Test(alwaysRun = true
+    )
     public void SS4(String xpathReset,String userLocator,String userName,
                     String passwordLocator,String password,String login) throws InterruptedException{
         //reset

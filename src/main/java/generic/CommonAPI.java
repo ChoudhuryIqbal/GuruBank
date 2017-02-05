@@ -1,14 +1,14 @@
 package generic;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -29,9 +29,23 @@ public class CommonAPI {
     }
 
 
-    @AfterTest
+
+    @AfterMethod
     public void tearDown(){
-        driver.quit();
+        driver.close();
+
+    }
+
+
+    //takeing screenshot
+
+    /**
+     *
+     */
+    public void takeScreenShot(String screenShotName) throws Exception{
+        File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        //the below method will save the screen shot in  d drive with name
+        FileUtils.copyFile(scrFile,new File("C:\\Users\\a\\udemyAutomation\\Guru\\ScreenShot\\"+screenShotName+".png"));
 
     }
     public void typeByXpath(String locator,String input){
